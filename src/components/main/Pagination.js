@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import TextareaPage from './Tetarea'
+import TextareaPage from './Textarea'
 
 const Pagination = (props) => {
   return (
