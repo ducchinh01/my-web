@@ -11,8 +11,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 class Header extends Component {
   render() {
     return (
-      <div>
-        <Navbar bg="light" variant="light">
+      <nav className="navbar-expand-lg navbar-custom sticky-top">
+        <Navbar bg="light" variant="light" className="navar-sticky-top">
           <Nav.Link href="http://localhost:3000/#home" className="navbar-brand">
             <img src="https://www.stirling-it.com/wp-content/themes/stirlingit/images/col2a.png" /></Nav.Link>
           <Nav className="mr-auto">
@@ -32,7 +32,7 @@ class Header extends Component {
             <Button variant="outline-primary">Search</Button>
           </Form>
         </Navbar>
-      </div>
+        </nav>
     );
   }
 }
