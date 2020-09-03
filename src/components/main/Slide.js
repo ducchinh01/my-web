@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 
 
-function ControlledCarousel() {
+function SlideShow() {
     const [index, setIndex] = useState(0);
   
     const handleSelect = (selectedIndex, e) => {
@@ -17,7 +17,7 @@ function ControlledCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://sogo.edu.vn/wp-content/uploads/2019/06/html-la-gi.jpg"
+            src="https://flipper.vn/uploads/images/2020/04/html-la-gi-cau-truc-html-cua-trang-web.png"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -54,4 +54,4 @@ function ControlledCarousel() {
       </Carousel>
     );
   }
-  export default ControlledCarousel;
+  export default SlideShow;
